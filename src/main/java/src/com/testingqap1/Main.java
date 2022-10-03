@@ -11,7 +11,16 @@ public class Main {
         Calculator input1 = new Calculator(55,25.5);
 
         double addition = input1.addition();
-        System.out.println(addition);
+        System.out.println("Sum: " + addition);
+
+        double difference = input1.subtraction();
+        System.out.println("Difference: " + difference);
+
+        double product = input1.multiplication();
+        System.out.println("Product: " + product);
+
+        double division = input1.division();
+        System.out.println("Division " + division);
 
     }
 }

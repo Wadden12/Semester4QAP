@@ -28,12 +28,26 @@ public class Calculator {
     }
 
     public double addition(){
-        return this.number1 + this.number2;
+        return getNumber1() + getNumber2();
     }
 
 
     public double subtraction(){
         return this.number1 - number2;
     }
+
+
+    public double multiplication(){
+        return this.number1 * number2;
+    }
+
+    public double division () throws IllegalArgumentException{
+        if(this.number2 == 0 ){
+            throw new IllegalArgumentException("A number cannot be divided by Zero please use a different number");
+        }
+
+        return number1 / number2;
+    }
+
 
 }
