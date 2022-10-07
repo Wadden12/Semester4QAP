@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ce0147-e5dc-4442-8434-3d0f7faae955" name="Changes" comment="additon a couple of methods to test file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/MortgageCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/MortgageCalculatorTest.java" afterDir="false" />
+    <list default="true" id="f8ce0147-e5dc-4442-8434-3d0f7faae955" name="Changes" comment="Added a basic calculator for first test and just added Mortgage Calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/MortgageCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/MortgageCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +40,35 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MortgageCalculatorTest.testCalculatorMortgageToBeNotNull">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="src.com.testingqap1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MortgageCalculatorTest.testCalculateBalanceFormula">
+    <configuration name="CalculatorTest.newDivideByZeroExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingQAP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.com.testingqap1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.com.testingqap1" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
+      <option name="METHOD_NAME" value="newDivideByZeroExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
@@ -57,22 +80,6 @@
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
       <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
       <option name="METHOD_NAME" value="testDivision" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testInvalidZeroInputForDivisionToBeFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingQAP1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.com.testingqap1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testInvalidZeroInputForDivisionToBeFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MortgageCalculatorTest.testCalculateBalanceFormula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testProduct" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.MortgageCalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateBalanceFormula" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MortgageCalculatorTest.testCalculatorMortgageToBeNotNull" />
-        <item itemvalue="JUnit.CalculatorTest.testInvalidZeroInputForDivisionToBeFalse" />
+        <item itemvalue="JUnit.MortgageCalculatorTest.testCalculateBalanceFormula" />
+        <item itemvalue="JUnit.CalculatorTest.newDivideByZeroExceptionTest" />
         <item itemvalue="JUnit.CalculatorTest.testInvalidZeroInputForDivisionToBeTrue" />
         <item itemvalue="JUnit.CalculatorTest.testDivision" />
-        <item itemvalue="JUnit.CalculatorTest.testProduct" />
+        <item itemvalue="JUnit.MortgageCalculatorTest.testCalculatorMortgageToBeNotNull" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664803352951</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a basic calculator for first test and just added Mortgage Calculator">
+      <created>1664825930320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664825930322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +183,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project set up" />
     <MESSAGE value="additon a couple of methods to test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="additon a couple of methods to test file" />
+    <MESSAGE value="Added a basic calculator for first test and just added Mortgage Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a basic calculator for first test and just added Mortgage Calculator" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingQAP1$CalculatorTest_testProduct.ic" NAME="CalculatorTest.testProduct Coverage Results" MODIFIED="1664820947482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

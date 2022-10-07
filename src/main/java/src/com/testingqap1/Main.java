@@ -19,7 +19,12 @@ public class Main {
         double product = input1.multiplication();
         System.out.println("Product: " + product);
 
-        double division = input1.division();
+        double division = 0;
+        try {
+            division = input1.division();
+        } catch (IllegalArgumentException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("Division " + division);
 
     }
