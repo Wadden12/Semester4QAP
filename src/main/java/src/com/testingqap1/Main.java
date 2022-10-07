@@ -27,5 +27,15 @@ public class Main {
         }
         System.out.println("Division " + division);
 
+        Grader grader = new Grader();
+
+        char grade = grader.returnLetterGrade(99);
+
+
+        System.out.println(grade);
+
     }
+
+
+
 }

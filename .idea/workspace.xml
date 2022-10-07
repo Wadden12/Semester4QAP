@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8ce0147-e5dc-4442-8434-3d0f7faae955" name="Changes" comment="Added a basic calculator for first test and just added Mortgage Calculator">
+    <list default="true" id="f8ce0147-e5dc-4442-8434-3d0f7faae955" name="Changes" comment="Calculate Balance added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Grader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/GraderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/com/testingqap1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/MortgageCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/src/com/testingqap1/MortgageCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -52,8 +53,8 @@
       <recent name="src.com.testingqap1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MortgageCalculatorTest.testCalculateBalanceFormula">
-    <configuration name="CalculatorTest.newDivideByZeroExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GraderTest.gradeHigherThanMaxException">
+    <configuration name="GraderTest.eightyNineShouldReturnB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -62,14 +63,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
-      <option name="METHOD_NAME" value="newDivideByZeroExceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.GraderTest" />
+      <option name="METHOD_NAME" value="eightyNineShouldReturnB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraderTest.eightyShouldReturnB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -78,14 +79,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testDivision" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.GraderTest" />
+      <option name="METHOD_NAME" value="eightyShouldReturnB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testInvalidZeroInputForDivisionToBeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraderTest.gradeHigherThanMaxException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -94,14 +95,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.CalculatorTest" />
-      <option name="METHOD_NAME" value="testInvalidZeroInputForDivisionToBeTrue" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.GraderTest" />
+      <option name="METHOD_NAME" value="gradeHigherThanMaxException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalculatorTest.testCalculateBalanceFormula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraderTest.ninetyShouldReturnA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.MortgageCalculatorTest" />
-      <option name="METHOD_NAME" value="testCalculateBalanceFormula" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.GraderTest" />
+      <option name="METHOD_NAME" value="ninetyShouldReturnA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MortgageCalculatorTest.testCalculatorMortgageToBeNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GraderTest.oneHundredShouldReturnA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingQAP1" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="src.com.testingqap1" />
-      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.MortgageCalculatorTest" />
-      <option name="METHOD_NAME" value="testCalculatorMortgageToBeNotNull" />
+      <option name="MAIN_CLASS_NAME" value="src.com.testingqap1.GraderTest" />
+      <option name="METHOD_NAME" value="oneHundredShouldReturnA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MortgageCalculatorTest.testCalculateBalanceFormula" />
-        <item itemvalue="JUnit.CalculatorTest.newDivideByZeroExceptionTest" />
-        <item itemvalue="JUnit.CalculatorTest.testInvalidZeroInputForDivisionToBeTrue" />
-        <item itemvalue="JUnit.CalculatorTest.testDivision" />
-        <item itemvalue="JUnit.MortgageCalculatorTest.testCalculatorMortgageToBeNotNull" />
+        <item itemvalue="JUnit.GraderTest.gradeHigherThanMaxException" />
+        <item itemvalue="JUnit.GraderTest.oneHundredShouldReturnA" />
+        <item itemvalue="JUnit.GraderTest.ninetyShouldReturnA" />
+        <item itemvalue="JUnit.GraderTest.eightyNineShouldReturnB" />
+        <item itemvalue="JUnit.GraderTest.eightyShouldReturnB" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664825930322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Calculate Balance added">
+      <created>1665150641626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665150641627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,10 +192,17 @@
     <MESSAGE value="Project set up" />
     <MESSAGE value="additon a couple of methods to test file" />
     <MESSAGE value="Added a basic calculator for first test and just added Mortgage Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a basic calculator for first test and just added Mortgage Calculator" />
+    <MESSAGE value="Calculate Balance added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate Balance added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestingQAP1$CalculatorTest_testProduct.ic" NAME="CalculatorTest.testProduct Coverage Results" MODIFIED="1664820947482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.com.testingqap1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingQAP1$MortgageCalculatorTest_testCalculateBalanceFormula.ic" NAME="MortgageCalculatorTest.testCalculateBalanceFormula Coverage Results" MODIFIED="1665150427226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.com.testingqap1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingQAP1$GraderTest_gradeHigherThanMaxException.ic" NAME="GraderTest.gradeHigherThanMaxException Coverage Results" MODIFIED="1665155483659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.com.testingqap1.*</FILTER>
     </SUITE>
   </component>
